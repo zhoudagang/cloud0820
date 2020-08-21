@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-system" />
+        <module name="cloud-sysadmin" />
+        <module name="cloud-commons" />
+        <module name="cloud-auth" />
+        <module name="cloud-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-system" target="1.8" />
+      <module name="nacos-rabbon-service" target="1.8" />
+      <module name="nacos-user-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

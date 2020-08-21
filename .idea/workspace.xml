@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a572d91b-4e54-43ba-9e09-7cae7a95564c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DockerExecCommand">
+    <ExecCommand>
+      <option name="command" value="/bash/bin" />
+      <option name="imageId" value="sha256:718a6da099d82183c064a964523c0deca80619cb033aadd15854771fe592a480" />
+    </ExecCommand>
+    <ExecCommand>
+      <option name="command" value="ls" />
+      <option name="imageId" value="sha256:718a6da099d82183c064a964523c0deca80619cb033aadd15854771fe592a480" />
+    </ExecCommand>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../DevTools/apache-maven-3.6.0-bin/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="E:\DevTools\apache-maven-3.6.0-bin\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1gLjiycMDbe9NdLAX7LwZLo3dqi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="MyBatisLogPluginindexNum" value="2" />
+    <property name="MyBatisLogPluginparameters" value="Parameters:" />
+    <property name="MyBatisLogPluginpreparing" value="Preparing:" />
+    <property name="MyBatisLogPluginrunning" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-sysadmin/src/main/java/com/everyman/cloud" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="DockerRegistry" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JavaPorject\everyman-cloud0820\cloud-sysadmin\src\main\java\com\everyman\cloud" />
+      <recent name="E:\JavaPorject\everyman-cloud0820\cloud-sysadmin\src\main\resources" />
+      <recent name="E:\JavaPorject\everyman-cloud0820\cloud-gateway" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.everyman.cloud.controller" />
+      <recent name="cloud" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\JavaPorject\everyman-cloud0820\cloud-sysadmin\src\main\resources\mapper" />
+      <recent name="E:\JavaPorject\everyman-cloud0820\cloud-gateway" />
+      <recent name="E:\JavaPorject\everyman-cloud0820\cloud-gateway\src\main\docker" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SysadminApplication">
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.everyman.cloud.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SysadminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-sysadmin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.everyman.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.everyman.cloud.SysadminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cloud-gateway/Dockerfile" type="docker-deploy" factoryName="dockerfile">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="cloud-gateway/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SysadminApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Everyman\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a572d91b-4e54-43ba-9e09-7cae7a95564c" name="Default Changelist" comment="" />
+      <created>1597900897118</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597900897118</updated>
+      <workItem from="1597900900068" duration="3208000" />
+      <workItem from="1597904159203" duration="4202000" />
+      <workItem from="1597972552813" duration="12205000" />
+      <workItem from="1597998168684" duration="2137000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Docker" timestamp="1597978409916">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Docker/0.0.1920.1040@0.0.1920.1040" timestamp="1597978409916" />
+    <state x="586" y="198" key="#Inspections" timestamp="1597901957232">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1597901957232" />
+    <state x="440" y="94" key="#Project_Structure" timestamp="1597998378338">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1597998378338" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597978424702">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597978424702" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597999265288">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597999265288" />
+    <state width="1877" height="270" key="GridCell.Tab.0.bottom" timestamp="1598000187013">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598000187013" />
+    <state width="1877" height="270" key="GridCell.Tab.0.center" timestamp="1598000187013">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="270" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598000187013" />
+    <state width="1877" height="270" key="GridCell.Tab.0.left" timestamp="1598000187013">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="270" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598000187013" />
+    <state width="1877" height="270" key="GridCell.Tab.0.right" timestamp="1598000187013">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="270" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598000187013" />
+    <state width="1877" height="270" key="GridCell.Tab.1.bottom" timestamp="1598000187013">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="270" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598000187013" />
+    <state width="1877" height="270" key="GridCell.Tab.1.center" timestamp="1598000187013">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="270" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598000187013" />
+    <state width="1877" height="270" key="GridCell.Tab.1.left" timestamp="1598000187013">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="270" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598000187013" />
+    <state width="1877" height="270" key="GridCell.Tab.1.right" timestamp="1598000187013">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="270" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598000187013" />
+    <state x="330" y="148" width="998" height="708" key="SettingsEditor" timestamp="1597979998570">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="330" y="148" width="998" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597979998570" />
+    <state x="334" y="180" key="new project wizard" timestamp="1597989000012">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1597989000012" />
+    <state x="623" y="225" width="672" height="676" key="search.everywhere.popup" timestamp="1597998222231">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597998222231" />
+  </component>
+</project>

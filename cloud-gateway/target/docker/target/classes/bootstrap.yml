@@ -1,0 +1,26 @@
+server:
+  port: 8679
+
+spring:
+  application:
+    name: cloud-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true #开启从注册中心动态创建路由的功能，利用微服务名进行路由
+    nacos:
+      discovery:
+        # 配置Nacos地址
+        server-addr: localhost:8848
+      config:
+        # Nacos地址
+        server-addr: localhost:8848
+        # 这里我们获取的yaml格式的配置
+        file-extension: yaml
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
