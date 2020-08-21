@@ -5,10 +5,6 @@ spring:
   application:
     name: cloud-gateway
   cloud:
-    gateway:
-      discovery:
-        locator:
-          enabled: true #开启从注册中心动态创建路由的功能，利用微服务名进行路由
     nacos:
       discovery:
         # 配置Nacos地址
@@ -18,6 +14,16 @@ spring:
         server-addr: localhost:8848
         # 这里我们获取的yaml格式的配置
         file-extension: yaml
+
+    gateway:
+      discovery:
+        locator:
+          enabled: true # 开启从注册中心动态创建路由的功能，利用微服务名进行路由
+      routes:
+        - id: cloud-sysadmin              # 路由的ID
+          uri: lb://cloud-sysadmin:9001   # 匹配后提供服务的路由地址
+          predicates:                     # 断言，路径相匹配的进行路由
+            - Path=/cloud-sysadmin/**
 
 management:
   endpoints:
