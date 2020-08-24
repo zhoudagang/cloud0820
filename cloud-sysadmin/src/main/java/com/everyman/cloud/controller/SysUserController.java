@@ -24,5 +24,23 @@ public class SysUserController
         return sysUserService.selectListByPage(page, pageCount);
     }
 
+    @PostMapping("/add")
+    public int add(@RequestBody SysUser sysUser) {
+        return sysUserService.insertSysUser(sysUser);
+    }
 
+    @DeleteMapping("/delete/{id}")
+    public int delete(@PathVariable("id") Long id) {
+        return sysUserService.deleteSysUserById(id);
+    }
+
+    @PutMapping("/edit")
+    public int edit(@RequestBody SysUser sysUser) {
+        return sysUserService.updateSysUser(sysUser);
+    }
+
+    @GetMapping("/list/{id}")
+    public SysUser selectSysUserById(@PathVariable Long id) {
+        return sysUserService.selectSysUserById(id);
+    }
 }

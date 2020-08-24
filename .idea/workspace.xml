@@ -20,12 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a572d91b-4e54-43ba-9e09-7cae7a95564c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-gateway/src/main/java/com/everyman/cloud/config/GatewayConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/nacos-server-1.3.2.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-gateway/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-gateway/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-gateway/target/classes/com/everyman/cloud/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/target/classes/com/everyman/cloud/controller/IndexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-sysadmin/src/main/java/com/everyman/cloud/config/RedisSpringCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-sysadmin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sysadmin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-sysadmin/src/main/java/com/everyman/cloud/SysadminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sysadmin/src/main/java/com/everyman/cloud/SysadminApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-sysadmin/src/main/java/com/everyman/cloud/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sysadmin/src/main/java/com/everyman/cloud/controller/SysUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-sysadmin/src/main/java/com/everyman/cloud/service/ISysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sysadmin/src/main/java/com/everyman/cloud/service/ISysUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-sysadmin/src/main/java/com/everyman/cloud/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sysadmin/src/main/java/com/everyman/cloud/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-sysadmin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sysadmin/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-sysadmin/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sysadmin/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-sysadmin/target/classes/com/everyman/cloud/SysadminApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sysadmin/target/classes/com/everyman/cloud/SysadminApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-sysadmin/target/classes/com/everyman/cloud/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sysadmin/target/classes/com/everyman/cloud/controller/IndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-sysadmin/target/classes/com/everyman/cloud/controller/SysUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sysadmin/target/classes/com/everyman/cloud/controller/SysUserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-sysadmin/target/classes/com/everyman/cloud/service/ISysUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sysadmin/target/classes/com/everyman/cloud/service/ISysUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-sysadmin/target/classes/com/everyman/cloud/service/impl/SysUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sysadmin/target/classes/com/everyman/cloud/service/impl/SysUserServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +83,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="MyBatisLogPluginindexNum" value="5" />
+    <property name="MyBatisLogPluginindexNum" value="16" />
     <property name="MyBatisLogPluginparameters" value="Parameters:" />
     <property name="MyBatisLogPluginpreparing" value="Preparing:" />
     <property name="MyBatisLogPluginrunning" value="true" />
@@ -89,7 +96,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tools" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-sysadmin/src/main/java/com/everyman/cloud/config" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -97,23 +104,24 @@
     <property name="settings.editor.selected.configurable" value="DockerRegistry" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\JavaPorject\everyman-cloud0820\tools" />
-      <recent name="E:\JavaPorject\everyman-cloud0820\cloud-sysadmin\src\main\java\com\everyman\cloud" />
-      <recent name="E:\JavaPorject\everyman-cloud0820\cloud-sysadmin\src\main\resources" />
-      <recent name="E:\JavaPorject\everyman-cloud0820\cloud-gateway" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.everyman.cloud.controller" />
-      <recent name="cloud" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\JavaPorject\everyman-cloud0820\cloud-sysadmin\src\main\resources\mapper" />
       <recent name="E:\JavaPorject\everyman-cloud0820\cloud-gateway" />
       <recent name="E:\JavaPorject\everyman-cloud0820\cloud-gateway\src\main\docker" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.everyman.cloud.controller" />
+      <recent name="cloud" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JavaPorject\everyman-cloud0820\cloud-sysadmin\src\main\java\com\everyman\cloud\config" />
+      <recent name="E:\JavaPorject\everyman-cloud0820\tools" />
+      <recent name="E:\JavaPorject\everyman-cloud0820\cloud-sysadmin\src\main\java\com\everyman\cloud" />
+      <recent name="E:\JavaPorject\everyman-cloud0820\cloud-sysadmin\src\main\resources" />
+      <recent name="E:\JavaPorject\everyman-cloud0820\cloud-gateway" />
+    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.GatewayApplication">
+  <component name="RunManager" selected="Spring Boot.SysadminApplication">
     <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.everyman.cloud.GatewayApplication" />
@@ -161,7 +169,8 @@
       <workItem from="1597900900068" duration="3208000" />
       <workItem from="1597904159203" duration="4202000" />
       <workItem from="1597972552813" duration="12205000" />
-      <workItem from="1597998168684" duration="4201000" />
+      <workItem from="1597998168684" duration="4738000" />
+      <workItem from="1598231010752" duration="9115000" />
     </task>
     <servers />
   </component>
@@ -178,6 +187,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Docker" timestamp="1597978409916">
@@ -196,42 +206,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597978424702" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597999265288">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1598235896764">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597999265288" />
-    <state width="1877" height="168" key="GridCell.Tab.0.bottom" timestamp="1598002114115">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598235896764" />
+    <state width="1877" height="369" key="GridCell.Tab.0.bottom" timestamp="1598239642702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="168" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598002114115" />
-    <state width="1877" height="168" key="GridCell.Tab.0.center" timestamp="1598002114115">
+    <state width="1877" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598239642702" />
+    <state width="1877" height="369" key="GridCell.Tab.0.center" timestamp="1598239642702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="168" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598002114115" />
-    <state width="1877" height="168" key="GridCell.Tab.0.left" timestamp="1598002114115">
+    <state width="1877" height="369" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598239642702" />
+    <state width="1877" height="369" key="GridCell.Tab.0.left" timestamp="1598239642702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="168" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598002114115" />
-    <state width="1877" height="168" key="GridCell.Tab.0.right" timestamp="1598002114115">
+    <state width="1877" height="369" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598239642702" />
+    <state width="1877" height="369" key="GridCell.Tab.0.right" timestamp="1598239642702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="168" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598002114115" />
-    <state width="1877" height="168" key="GridCell.Tab.1.bottom" timestamp="1598002114115">
+    <state width="1877" height="369" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598239642702" />
+    <state width="1877" height="369" key="GridCell.Tab.1.bottom" timestamp="1598239642702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="168" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598002114115" />
-    <state width="1877" height="168" key="GridCell.Tab.1.center" timestamp="1598002114115">
+    <state width="1877" height="369" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598239642702" />
+    <state width="1877" height="369" key="GridCell.Tab.1.center" timestamp="1598239642702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="168" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598002114115" />
-    <state width="1877" height="168" key="GridCell.Tab.1.left" timestamp="1598002114115">
+    <state width="1877" height="369" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598239642702" />
+    <state width="1877" height="369" key="GridCell.Tab.1.left" timestamp="1598239642702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="168" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598002114115" />
-    <state width="1877" height="168" key="GridCell.Tab.1.right" timestamp="1598002114115">
+    <state width="1877" height="369" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598239642702" />
+    <state width="1877" height="369" key="GridCell.Tab.1.right" timestamp="1598239642702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="168" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598002114115" />
+    <state width="1877" height="369" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598239642702" />
     <state x="330" y="148" width="998" height="708" key="SettingsEditor" timestamp="1597979998570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
