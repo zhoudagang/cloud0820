@@ -49,7 +49,7 @@ public class SysUserServiceImpl extends ServiceImpl<SysUserMapper, SysUser> impl
     @CacheEvict(value = "userCache", allEntries = true, beforeInvocation = true)
     @Caching(evict = {
             @CacheEvict(value = "userCache", allEntries = true, beforeInvocation = true),
-            @CacheEvict(value = "user", key = "#id", allEntries = true, beforeInvocation = true)})
+            @CacheEvict(value = "userCache", key = "#id", allEntries = true, beforeInvocation = true)})
     public int deleteSysUserById(Long id)
     {
         return baseMapper.deleteById(id);
