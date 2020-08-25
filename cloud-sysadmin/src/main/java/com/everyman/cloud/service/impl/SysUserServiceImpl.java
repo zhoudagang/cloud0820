@@ -21,6 +21,7 @@ import org.springframework.stereotype.Service;
 public class SysUserServiceImpl extends ServiceImpl<SysUserMapper, SysUser> implements ISysUserService
 {
 
+
     @Override
     @Cacheable(value = "userCache")
     public IPage<SysUser> selectListByPage(Integer page, Integer pageCount)

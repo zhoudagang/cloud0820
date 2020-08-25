@@ -20,7 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a572d91b-4e54-43ba-9e09-7cae7a95564c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-elasticsearch/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-elasticsearch/src/main/java/com/everyman/springcloud/ElasticSearchApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-elasticsearch/src/main/java/com/everyman/springcloud/config/ElasticSearchConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-elasticsearch/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-elasticsearch/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-sysadmin/src/main/java/com/everyman/cloud/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sysadmin/src/main/java/com/everyman/cloud/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-sysadmin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sysadmin/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +92,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-sysadmin/src/main/java/com/everyman/cloud/config" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-elasticsearch/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -92,24 +100,37 @@
     <property name="settings.editor.selected.configurable" value="DockerRegistry" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\JavaPorject\everyman-cloud0820\cloud-sysadmin\src\main\resources\mapper" />
-      <recent name="E:\JavaPorject\everyman-cloud0820\cloud-gateway" />
-      <recent name="E:\JavaPorject\everyman-cloud0820\cloud-gateway\src\main\docker" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JavaPorject\everyman-cloud0820\cloud-elasticsearch\src\main\resources" />
+      <recent name="E:\JavaPorject\everyman-cloud0820\tools" />
+      <recent name="E:\JavaPorject\everyman-cloud0820\cloud-sysadmin\src\main\java\com\everyman\cloud\config" />
+      <recent name="E:\JavaPorject\everyman-cloud0820\cloud-sysadmin\src\main\java\com\everyman\cloud" />
+      <recent name="E:\JavaPorject\everyman-cloud0820\cloud-sysadmin\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.everyman.cloud.controller" />
       <recent name="cloud" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\JavaPorject\everyman-cloud0820\cloud-sysadmin\src\main\java\com\everyman\cloud\config" />
-      <recent name="E:\JavaPorject\everyman-cloud0820\tools" />
-      <recent name="E:\JavaPorject\everyman-cloud0820\cloud-sysadmin\src\main\java\com\everyman\cloud" />
-      <recent name="E:\JavaPorject\everyman-cloud0820\cloud-sysadmin\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\JavaPorject\everyman-cloud0820\cloud-sysadmin\src\main\resources\mapper" />
       <recent name="E:\JavaPorject\everyman-cloud0820\cloud-gateway" />
+      <recent name="E:\JavaPorject\everyman-cloud0820\cloud-gateway\src\main\docker" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SysadminApplication">
+  <component name="RunManager" selected="Spring Boot.ElasticSearchApplication">
+    <configuration name="ElasticSearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-elasticsearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.everyman.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.everyman.springcloud.ElasticSearchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.everyman.cloud.GatewayApplication" />
@@ -140,6 +161,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ElasticSearchApplication" />
         <item itemvalue="Spring Boot.SysadminApplication" />
       </list>
     </recent_temporary>
@@ -158,7 +180,11 @@
       <workItem from="1597904159203" duration="4202000" />
       <workItem from="1597972552813" duration="12205000" />
       <workItem from="1597998168684" duration="4738000" />
-      <workItem from="1598231010752" duration="9310000" />
+      <workItem from="1598231010752" duration="14479000" />
+      <workItem from="1598326202203" duration="9000" />
+      <workItem from="1598326371881" duration="9000" />
+      <workItem from="1598326473363" duration="1543000" />
+      <workItem from="1598345799108" duration="3274000" />
     </task>
     <servers />
   </component>
@@ -186,58 +212,62 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1597901957232" />
-    <state x="440" y="94" key="#Project_Structure" timestamp="1597998378338">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1598345641081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1597998378338" />
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1598345641081" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597978424702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597978424702" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1598235896764">
+    <state x="704" y="355" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1598319423535">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598235896764" />
-    <state width="1877" height="275" key="GridCell.Tab.0.bottom" timestamp="1598241261928">
+    <state x="704" y="355" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598319423535" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1598319497811">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598241261928" />
-    <state width="1877" height="275" key="GridCell.Tab.0.center" timestamp="1598241261928">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598319497811" />
+    <state width="1877" height="64" key="GridCell.Tab.0.bottom" timestamp="1598345792363">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598241261928" />
-    <state width="1877" height="275" key="GridCell.Tab.0.left" timestamp="1598241261928">
+    <state width="1877" height="64" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598345792363" />
+    <state width="1877" height="64" key="GridCell.Tab.0.center" timestamp="1598345792363">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598241261928" />
-    <state width="1877" height="275" key="GridCell.Tab.0.right" timestamp="1598241261928">
+    <state width="1877" height="64" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598345792363" />
+    <state width="1877" height="64" key="GridCell.Tab.0.left" timestamp="1598345792363">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598241261928" />
-    <state width="1877" height="369" key="GridCell.Tab.1.bottom" timestamp="1598239642702">
+    <state width="1877" height="64" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598345792363" />
+    <state width="1877" height="64" key="GridCell.Tab.0.right" timestamp="1598345792363">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="369" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598239642702" />
-    <state width="1877" height="369" key="GridCell.Tab.1.center" timestamp="1598239642702">
+    <state width="1877" height="64" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598345792363" />
+    <state width="1877" height="369" key="GridCell.Tab.1.bottom" timestamp="1598326182833">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="369" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598239642702" />
-    <state width="1877" height="369" key="GridCell.Tab.1.left" timestamp="1598239642702">
+    <state width="1877" height="369" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598326182833" />
+    <state width="1877" height="369" key="GridCell.Tab.1.center" timestamp="1598326182832">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="369" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598239642702" />
-    <state width="1877" height="369" key="GridCell.Tab.1.right" timestamp="1598239642702">
+    <state width="1877" height="369" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598326182832" />
+    <state width="1877" height="369" key="GridCell.Tab.1.left" timestamp="1598326182832">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="369" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598239642702" />
+    <state width="1877" height="369" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598326182832" />
+    <state width="1877" height="369" key="GridCell.Tab.1.right" timestamp="1598326182833">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="369" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598326182833" />
     <state x="330" y="148" width="998" height="708" key="SettingsEditor" timestamp="1597979998570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="330" y="148" width="998" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597979998570" />
-    <state x="334" y="180" key="new project wizard" timestamp="1597989000012">
+    <state x="334" y="180" key="new project wizard" timestamp="1598345523706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1597989000012" />
+    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1598345523706" />
     <state x="623" y="225" width="672" height="676" key="search.everywhere.popup" timestamp="1597998222231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

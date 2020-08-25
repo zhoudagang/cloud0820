@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-system" />
-        <module name="cloud-sysadmin" />
-        <module name="cloud-commons" />
-        <module name="cloud-auth" />
+        <module name="cloud-elasticsearch" />
         <module name="cloud-gateway" />
+        <module name="cloud-commons" />
+        <module name="cloud-system" />
+        <module name="cloud-auth" />
+        <module name="cloud-sysadmin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

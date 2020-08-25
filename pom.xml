@@ -12,6 +12,7 @@
         <module>cloud-gateway</module>
         <module>cloud-sysadmin</module>
         <module>cloud-auth</module>
+        <module>cloud-elasticsearch</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -26,6 +27,7 @@
         <mysql.version>8.0.20</mysql.version>
         <druid.verison>1.1.16</druid.verison>
         <mybatis-plus.verison>3.3.2</mybatis-plus.verison>
+        <elasticsearch.vaersion>7.9</elasticsearch.vaersion>
     </properties>
 
     <dependencyManagement>
