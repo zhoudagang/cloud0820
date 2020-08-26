@@ -1,2 +1,3 @@
+com\everyman\cloud\config\GatewayConfig.class
 com\everyman\cloud\GatewayApplication.class
 com\everyman\cloud\controller\IndexController.class

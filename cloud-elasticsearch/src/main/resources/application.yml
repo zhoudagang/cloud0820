@@ -4,6 +4,7 @@ spring:
     active: dev # 配置存放在nacos config cloud-elasticsearch-dev.yaml
   main:
     allow-bean-definition-overriding: true
+
 logging:
   level:
     com.everyman: debug

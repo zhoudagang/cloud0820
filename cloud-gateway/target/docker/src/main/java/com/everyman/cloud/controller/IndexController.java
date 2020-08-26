@@ -6,6 +6,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
+ * <p>
+ * 测试nacos config cloud-gateway-dev.yaml
+ * </p>
+ *
  * @author zhougang
  * @date 2020/08/21
  */

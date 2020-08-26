@@ -20,14 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a572d91b-4e54-43ba-9e09-7cae7a95564c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-elasticsearch/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-elasticsearch/src/main/java/com/everyman/springcloud/ElasticSearchApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-elasticsearch/src/main/java/com/everyman/springcloud/config/ElasticSearchConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-elasticsearch/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-elasticsearch/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-sysadmin/src/main/java/com/everyman/cloud/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sysadmin/src/main/java/com/everyman/cloud/service/impl/SysUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-sysadmin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sysadmin/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-elasticsearch/src/main/java/com/everyman/springcloud/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-elasticsearch/src/main/java/com/everyman/springcloud/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-elasticsearch/src/test/java/com/everyman/springcloud/test/EsApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-elasticsearch/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-elasticsearch/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-gateway/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-gateway/target/cloud-gateway-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/target/cloud-gateway-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-gateway/target/docker/cloud-gateway-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/target/docker/cloud-gateway-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-gateway/target/docker/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/target/docker/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-gateway/target/docker/src/main/java/com/everyman/cloud/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/target/docker/src/main/java/com/everyman/cloud/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-gateway/target/docker/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/target/docker/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-gateway/target/docker/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/target/docker/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-gateway/target/docker/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/target/docker/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-gateway/target/docker/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/target/docker/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-gateway/target/docker/target/classes/com/everyman/cloud/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/target/docker/target/classes/com/everyman/cloud/controller/IndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-gateway/target/docker/target/cloud-gateway-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/target/docker/target/cloud-gateway-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-gateway/target/docker/target/docker/cloud-gateway-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/target/docker/target/docker/cloud-gateway-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-gateway/target/docker/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/target/docker/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-gateway/target/test-classes/image_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/target/test-classes/image_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-sysadmin/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sysadmin/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-sysadmin/target/classes/com/everyman/cloud/service/impl/SysUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sysadmin/target/classes/com/everyman/cloud/service/impl/SysUserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-sysadmin/target/cloud-sysadmin-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sysadmin/target/cloud-sysadmin-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +65,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -91,15 +106,35 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-elasticsearch/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="DockerRegistry" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.everyman.springcloud.controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\JavaPorject\everyman-cloud0820\cloud-sysadmin\src\main\resources\mapper" />
+      <recent name="E:\JavaPorject\everyman-cloud0820\cloud-gateway" />
+      <recent name="E:\JavaPorject\everyman-cloud0820\cloud-gateway\src\main\docker" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.everyman.springcloud.controller" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.everyman.cloud.controller" />
+      <recent name="cloud" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\JavaPorject\everyman-cloud0820\cloud-elasticsearch\src\main\resources" />
       <recent name="E:\JavaPorject\everyman-cloud0820\tools" />
@@ -107,26 +142,84 @@
       <recent name="E:\JavaPorject\everyman-cloud0820\cloud-sysadmin\src\main\java\com\everyman\cloud" />
       <recent name="E:\JavaPorject\everyman-cloud0820\cloud-sysadmin\src\main\resources" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.everyman.cloud.controller" />
-      <recent name="cloud" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\JavaPorject\everyman-cloud0820\cloud-sysadmin\src\main\resources\mapper" />
-      <recent name="E:\JavaPorject\everyman-cloud0820\cloud-gateway" />
-      <recent name="E:\JavaPorject\everyman-cloud0820\cloud-gateway\src\main\docker" />
-    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ElasticSearchApplication">
-    <configuration name="ElasticSearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.EsApiTest.testSearch">
+    <configuration name="EsApiTest.testBulkDocument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cloud-elasticsearch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.everyman.springcloud.*" />
+          <option name="PATTERN" value="com.everyman.springcloud.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.everyman.springcloud.ElasticSearchApplication" />
+      <option name="PACKAGE_NAME" value="com.everyman.springcloud.test" />
+      <option name="MAIN_CLASS_NAME" value="com.everyman.springcloud.test.EsApiTest" />
+      <option name="METHOD_NAME" value="testBulkDocument" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EsApiTest.testDeleteDocument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloud-elasticsearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.everyman.springcloud.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.everyman.springcloud.test" />
+      <option name="MAIN_CLASS_NAME" value="com.everyman.springcloud.test.EsApiTest" />
+      <option name="METHOD_NAME" value="testDeleteDocument" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EsApiTest.testGetDocument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloud-elasticsearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.everyman.springcloud.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.everyman.springcloud.test" />
+      <option name="MAIN_CLASS_NAME" value="com.everyman.springcloud.test.EsApiTest" />
+      <option name="METHOD_NAME" value="testGetDocument" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EsApiTest.testSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloud-elasticsearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.everyman.springcloud.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.everyman.springcloud.test" />
+      <option name="MAIN_CLASS_NAME" value="com.everyman.springcloud.test.EsApiTest" />
+      <option name="METHOD_NAME" value="testSearch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EsApiTest.testUpdateDocument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloud-elasticsearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.everyman.springcloud.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.everyman.springcloud.test" />
+      <option name="MAIN_CLASS_NAME" value="com.everyman.springcloud.test.EsApiTest" />
+      <option name="METHOD_NAME" value="testUpdateDocument" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,19 +227,6 @@
     <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.everyman.cloud.GatewayApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SysadminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-sysadmin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.everyman.cloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.everyman.cloud.SysadminApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -159,10 +239,22 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Docker.cloud-gateway/Dockerfile" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="JUnit.EsApiTest.testGetDocument" />
+      <item itemvalue="JUnit.EsApiTest.testUpdateDocument" />
+      <item itemvalue="JUnit.EsApiTest.testDeleteDocument" />
+      <item itemvalue="JUnit.EsApiTest.testBulkDocument" />
+      <item itemvalue="JUnit.EsApiTest.testSearch" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ElasticSearchApplication" />
-        <item itemvalue="Spring Boot.SysadminApplication" />
+        <item itemvalue="JUnit.EsApiTest.testSearch" />
+        <item itemvalue="JUnit.EsApiTest.testBulkDocument" />
+        <item itemvalue="JUnit.EsApiTest.testDeleteDocument" />
+        <item itemvalue="JUnit.EsApiTest.testUpdateDocument" />
+        <item itemvalue="JUnit.EsApiTest.testGetDocument" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +276,8 @@
       <workItem from="1598326202203" duration="9000" />
       <workItem from="1598326371881" duration="9000" />
       <workItem from="1598326473363" duration="1543000" />
-      <workItem from="1598345799108" duration="3274000" />
+      <workItem from="1598345799108" duration="4252000" />
+      <workItem from="1598403607483" duration="14949000" />
     </task>
     <servers />
   </component>
@@ -212,65 +305,81 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1597901957232" />
-    <state x="440" y="94" key="#Project_Structure" timestamp="1598345641081">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1598404400168">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1598345641081" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597978424702">
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1598404400168" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598408201418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597978424702" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598408201418" />
     <state x="704" y="355" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1598319423535">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="704" y="355" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598319423535" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1598319497811">
+    <state x="721" y="387" width="481" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1598409507140">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598319497811" />
-    <state width="1877" height="64" key="GridCell.Tab.0.bottom" timestamp="1598345792363">
+    <state x="721" y="387" width="481" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1598409507140" />
+    <state width="428" height="466" key="DebuggerActiveHint" timestamp="1598406420969">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="64" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598345792363" />
-    <state width="1877" height="64" key="GridCell.Tab.0.center" timestamp="1598345792363">
+    <state width="428" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1598406420969" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1598407326903">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="64" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598345792363" />
-    <state width="1877" height="64" key="GridCell.Tab.0.left" timestamp="1598345792363">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598407326903" />
+    <state width="1877" height="320" key="GridCell.Tab.0.bottom" timestamp="1598416662418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="64" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598345792363" />
-    <state width="1877" height="64" key="GridCell.Tab.0.right" timestamp="1598345792363">
+    <state width="1877" height="320" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598416662418" />
+    <state width="1877" height="320" key="GridCell.Tab.0.center" timestamp="1598416662418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="64" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598345792363" />
-    <state width="1877" height="369" key="GridCell.Tab.1.bottom" timestamp="1598326182833">
+    <state width="1877" height="320" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598416662418" />
+    <state width="1877" height="320" key="GridCell.Tab.0.left" timestamp="1598416662418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="369" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598326182833" />
-    <state width="1877" height="369" key="GridCell.Tab.1.center" timestamp="1598326182832">
+    <state width="1877" height="320" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598416662418" />
+    <state width="1877" height="320" key="GridCell.Tab.0.right" timestamp="1598416662418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="369" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598326182832" />
-    <state width="1877" height="369" key="GridCell.Tab.1.left" timestamp="1598326182832">
+    <state width="1877" height="320" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598416662418" />
+    <state width="1877" height="2" key="GridCell.Tab.1.bottom" timestamp="1598411342801">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="369" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598326182832" />
-    <state width="1877" height="369" key="GridCell.Tab.1.right" timestamp="1598326182833">
+    <state width="1877" height="2" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598411342801" />
+    <state width="1877" height="2" key="GridCell.Tab.1.center" timestamp="1598411342801">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="369" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598326182833" />
-    <state x="330" y="148" width="998" height="708" key="SettingsEditor" timestamp="1597979998570">
+    <state width="1877" height="2" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598411342801" />
+    <state width="1877" height="2" key="GridCell.Tab.1.left" timestamp="1598411342801">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="330" y="148" width="998" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597979998570" />
+    <state width="1877" height="2" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598411342801" />
+    <state width="1877" height="2" key="GridCell.Tab.1.right" timestamp="1598411342801">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="2" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598411342801" />
+    <state x="330" y="148" width="998" height="708" key="SettingsEditor" timestamp="1598419291033">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="330" y="148" width="998" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598419291033" />
+    <state x="698" y="327" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1598408255353">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="698" y="327" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598408255353" />
     <state x="334" y="180" key="new project wizard" timestamp="1598345523706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1598345523706" />
-    <state x="623" y="225" width="672" height="676" key="search.everywhere.popup" timestamp="1597998222231">
+    <state x="590" y="375" width="628" height="284" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1598419290468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597998222231" />
+    <state x="590" y="375" width="628" height="284" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598419290468" />
+    <state x="623" y="225" width="672" height="676" key="search.everywhere.popup" timestamp="1598416541049">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598416541049" />
   </component>
 </project>

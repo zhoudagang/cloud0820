@@ -77,7 +77,7 @@
                     <imageTags>
                         <imageTag>${project.version}</imageTag>
                     </imageTags>
-                  <!--<forceTags>true</forceTags>-->
+                  <forceTags>true</forceTags>
                     <dockerDirectory>${project.basedir}</dockerDirectory>
                     <resources>
                         <resource>
