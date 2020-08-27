@@ -37,9 +37,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import javax.annotation.Resource;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Map;
+import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -58,6 +56,7 @@ public class EsApiTest
     @Test
     public void testCreateIndex() throws IOException
     {
+
         CreateIndexRequest request = new CreateIndexRequest("everyman_index");
         CreateIndexResponse createIndexResponse = client.indices().create(request, RequestOptions.DEFAULT);
         System.out.println("createIndexResponse = " + createIndexResponse);
@@ -216,7 +215,8 @@ public class EsApiTest
             if (null != highlightFields)
             {
                 HighlightField name = highlightFields.get("name");
-                if (null != name){
+                if (null != name)
+                {
                     Text[] fragments = name.fragments();
                     System.out.println("fragments = " + Arrays.toString(fragments));
                 }

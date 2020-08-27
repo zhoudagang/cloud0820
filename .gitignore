@@ -41,3 +41,6 @@ nbdist/
 !*/build/*.java
 !*/build/*.html
 !*/build/*.xml
+cloud-commons/src/test/
+cloud-gateway/src/test/
+cloud-sysadmin/src/test/

@@ -20,29 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a572d91b-4e54-43ba-9e09-7cae7a95564c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-elasticsearch/src/main/java/com/everyman/springcloud/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-elasticsearch/src/main/java/com/everyman/springcloud/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-elasticsearch/src/test/java/com/everyman/springcloud/test/EsApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-elasticsearch/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-elasticsearch/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-gateway/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-gateway/target/cloud-gateway-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/target/cloud-gateway-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-gateway/target/docker/cloud-gateway-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/target/docker/cloud-gateway-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-gateway/target/docker/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/target/docker/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-gateway/target/docker/src/main/java/com/everyman/cloud/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/target/docker/src/main/java/com/everyman/cloud/controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-gateway/target/docker/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/target/docker/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-gateway/target/docker/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/target/docker/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-gateway/target/docker/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/target/docker/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-gateway/target/docker/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/target/docker/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-gateway/target/docker/target/classes/com/everyman/cloud/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/target/docker/target/classes/com/everyman/cloud/controller/IndexController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-gateway/target/docker/target/cloud-gateway-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/target/docker/target/cloud-gateway-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-gateway/target/docker/target/docker/cloud-gateway-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/target/docker/target/docker/cloud-gateway-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-gateway/target/docker/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/target/docker/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-gateway/target/test-classes/image_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway/target/test-classes/image_info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-sysadmin/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sysadmin/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-sysadmin/target/classes/com/everyman/cloud/service/impl/SysUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sysadmin/target/classes/com/everyman/cloud/service/impl/SysUserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-sysadmin/target/cloud-sysadmin-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sysadmin/target/cloud-sysadmin-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-elasticsearch/src/main/java/com/everyman/springcloud/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-elasticsearch/src/main/java/com/everyman/springcloud/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-elasticsearch/src/test/java/com/everyman/springcloud/test/EsApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-elasticsearch/src/test/java/com/everyman/springcloud/test/EsApiTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,7 +257,7 @@
       <workItem from="1598326371881" duration="9000" />
       <workItem from="1598326473363" duration="1543000" />
       <workItem from="1598345799108" duration="4252000" />
-      <workItem from="1598403607483" duration="14949000" />
+      <workItem from="1598403607483" duration="24057000" />
     </task>
     <servers />
   </component>
@@ -329,22 +309,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598407326903" />
-    <state width="1877" height="320" key="GridCell.Tab.0.bottom" timestamp="1598416662418">
+    <state width="1877" height="319" key="GridCell.Tab.0.bottom" timestamp="1598423147191">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="320" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598416662418" />
-    <state width="1877" height="320" key="GridCell.Tab.0.center" timestamp="1598416662418">
+    <state width="1877" height="319" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598423147191" />
+    <state width="1877" height="319" key="GridCell.Tab.0.center" timestamp="1598423147191">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="320" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598416662418" />
-    <state width="1877" height="320" key="GridCell.Tab.0.left" timestamp="1598416662418">
+    <state width="1877" height="319" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598423147191" />
+    <state width="1877" height="319" key="GridCell.Tab.0.left" timestamp="1598423147191">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="320" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598416662418" />
-    <state width="1877" height="320" key="GridCell.Tab.0.right" timestamp="1598416662418">
+    <state width="1877" height="319" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598423147191" />
+    <state width="1877" height="319" key="GridCell.Tab.0.right" timestamp="1598423147191">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="320" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598416662418" />
+    <state width="1877" height="319" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598423147191" />
     <state width="1877" height="2" key="GridCell.Tab.1.bottom" timestamp="1598411342801">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
