@@ -1,0 +1,11 @@
+# 数据源配置
+spring:
+  profiles:
+    active: dev # 配置存放在nacos config cloud-sysadmin-dev.yaml
+  main:
+    allow-bean-definition-overriding: true
+
+logging:
+  level:
+    com.everyman: debug
+    org.springframework: warn

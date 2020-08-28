@@ -2,6 +2,7 @@ package com.everyman.cloud.commons;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.web.bind.annotation.ExceptionHandler;
 
 /**
  * @author zhougang

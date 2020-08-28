@@ -11,5 +11,7 @@
     <file url="file://$PROJECT_DIR$/cloud-gateway/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-sysadmin/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-sysadmin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-wechat/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-wechat/src/main/resources" charset="UTF-8" />
   </component>
 </project>

@@ -13,6 +13,7 @@
         <module>cloud-sysadmin</module>
         <module>cloud-auth</module>
         <module>cloud-elasticsearch</module>
+        <module>cloud-wechat</module>
     </modules>
     <packaging>pom</packaging>
 

@@ -11,6 +11,7 @@
         <module name="cloud-commons" />
         <module name="cloud-system" />
         <module name="cloud-auth" />
+        <module name="cloud-wechat" />
         <module name="cloud-sysadmin" />
       </profile>
     </annotationProcessing>
